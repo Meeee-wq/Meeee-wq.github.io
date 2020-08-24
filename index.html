@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./libs/css/base.css">
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./libs/css/index.css">
+    <!-- 导入jq -->
+    <script src="./libs/js/jquery-1.12.4.js"></script>
 </head>
+
 <body>
-    <h1>这是一个页面</h1>
+    <header>
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <!-- <img class="" src="/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--17276254841212bad6fb80df8088387e83f060ed/logo1.png"> -->
+                        5000的个人主页
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#services" class="scrollto">Mee</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="cover">
+        <div class="container">
+            <div class="card text-center">
+                <div>
+                    <p>CLICK<br>ON<br>ME.</p>
+                </div>
+                <a href="#services" class="scrollto"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $('#cover').css('height', ($(window).height()- 55));
+    </script>
 </body>
+
 </html>

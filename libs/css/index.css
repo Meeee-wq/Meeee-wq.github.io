@@ -1,0 +1,46 @@
+.navbar-default .navbar-brand {
+    font-family: "Microsoft YaHei", "宋体", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2f2e2e;
+    letter-spacing: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#cover {
+    background: url('../img/tcgf4.png') center top no-repeat;
+    background-size: cover;
+    /* background-attachment: scroll; */
+}
+
+#cover .container {
+   position: relative;
+}
+
+.card {
+    position: absolute;
+    width: 400px;
+    height: 465px;  
+    top: 50%;
+    left: 50%;
+    margin-top: 233px;
+    margin-left: -200px;
+    background-color: #fff;
+    padding: 70px 40px;
+}
+
+.card p {
+    font-family: "Arial black", "宋体", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 90px;
+    line-height: 1;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 40px;
+}
